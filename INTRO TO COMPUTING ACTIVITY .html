@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Activities 4, 5 and 6 - Meow</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background: #f7f7f7;
+        color: #222;
+        line-height: 1.45;
+    }
+    .page {
+        max-width: 850px;
+        margin: 0 auto 28px;
+        padding: 22px;
+        background: white;
+        border: 1px solid #aaa;
+    }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    h2 { font-size: 20px; }
+    h3 { margin-bottom: 8px; }
+    .student-info { margin-bottom: 18px; }
+    .exercise { margin: 22px 0 30px; }
+    .sample-box { border: 1px solid #555; padding: 14px; }
+    .center { text-align: center; }
+    .jack-style { max-width: 430px; margin: auto; }
+    .font-demo { font-family: Georgia, serif; font-size: 22px; color: #173b85; }
+    .color-game { border-collapse: collapse; width: 420px; max-width: 100%; }
+    .color-game td { border: 2px solid #aaa; text-align: center; padding: 20px; }
+    .yellow { background: yellow; }
+    .blue { background: blue; color: white; }
+    .white { background: white; }
+    .red { background: red; color: white; }
+    .pink { background: pink; }
+    .green { background: green; color: white; }
+    .graphic { max-width: 100%; height: auto; }
+    .social-links a { display: block; margin: 5px 0; }
+    .poem { font-family: Georgia, serif; font-weight: bold; line-height: 1.25; }
+    .yellow-page { background: yellow; padding: 12px; }
+    .red-heading { background: red; padding: 4px; }
+    .green-paragraph { background: green; padding: 4px; }
+    .wrap-image { float: left; width: 150px; height: auto; margin: 0 14px 8px 0; }
+    .clear { clear: both; }
+    .calendar { border-collapse: collapse; width: 100%; max-width: 460px; text-align: center; }
+    .calendar th, .calendar td { padding: 9px; }
+    .calendar th { font-size: 20px; }
+    .calendar .sunday { color: red; }
+    .form-panel { border: 2px solid #777; padding: 16px; margin: 10px auto; max-width: 650px; }
+    label { display: inline-block; margin: 5px 0; }
+    textarea { max-width: 100%; }
+    .survey-table { border-collapse: collapse; width: 100%; }
+    .survey-table th, .survey-table td { border: 1px solid #777; padding: 8px; text-align: center; }
+    .survey-table td:first-child { text-align: left; }
+    .section-bar { background: #ddd; padding: 5px; font-weight: bold; margin-top: 16px; }
+    @media (max-width: 600px) {
+        body { margin: 8px; }
+        .page { padding: 12px; }
+        .color-game { width: 100%; }
+    }
+</style>
+</head>
+<body>
+
+<div class="page">
+    <div class="student-info">Name: Meow &nbsp;&nbsp; Section: BSIT</div>
+    <h1>Activity 4</h1>
+
+    <div class="exercise">
+        <h3>1. HTML Font (you can use any image of your choice)</h3>
+        <div class="sample-box jack-style center">
+            <h2><i>Meet Meow</i></h2>
+            <img src="meow.webp" alt="Meow" class="graphic" style="width:180px; height:180px; object-fit:contain;">
+            <p style="font-family:Georgia,serif; font-size:13px; text-align:left;">
+                This is Meow. Welcome to my page! Here is a picture and a short introduction using HTML font formatting.
+            </p>
+            <hr>
+            <small>Welcome to Meow's webpage.</small>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>2. Definition List</h3>
+        <div class="sample-box">
+            <b>Computer Terms</b>
+            <dl>
+                <dt><b>HTML</b></dt><dd>HyperText Markup Language</dd>
+                <dt><b>CSS</b></dt><dd>Cascading Style Sheets</dd>
+                <dt><b>BSIT</b></dt><dd>Bachelor of Science in Information Technology</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>3. Changing Background Color of a page, text style, text color, and text size</h3>
+        <div style="background-color:powderblue; padding:12px;">
+            <h2 style="font-family:Georgia,serif;">Look! Styles and colors</h2>
+            <p>Background color is PowderBlue.</p>
+            <p style="font-family:Verdana,sans-serif; color:red;">This text is in Verdana and red.</p>
+            <p style="font-family:Times New Roman,serif; color:green; font-size:14px;">This text is in Times and green.</p>
+            <p style="font-size:30px;">This text is 30 pixels high.</p>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>4. Tables</h3>
+        <table class="color-game">
+            <tr>
+                <td rowspan="3">Color Game</td>
+                <td class="yellow">Yellow</td><td class="blue">Blue</td>
+            </tr>
+            <tr><td class="white">White</td><td class="red">Red</td></tr>
+            <tr><td class="pink">Pink</td><td class="green">Green</td></tr>
+        </table>
+    </div>
+
+    <div class="exercise">
+        <h3>5. Inserting Graphics to Web (you can use any image of your choice)</h3>
+        <p><img src="meow.webp" alt="Meow graphic" width="170" class="graphic"> &nbsp; This is a graphic inserted into a webpage.</p>
+    </div>
+
+    <div class="exercise">
+        <h3>6. Specifying background image of a page (you can use any image of your choice)</h3>
+        <div style="min-height:230px; padding:18px; background-image:url('meow universe.jpg'); background-size:cover; background-position:center; border:1px solid #777; text-align:center;">
+            <h3 style="color:#174d2b;">Meow Background Image</h3>
+            <p style="color:#222;">This section displays the chosen background picture.</p>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>7. Hyperlink Images</h3>
+        <p>Tap the picture to open the linked page:</p>
+        <a href="https://youtu.be/CEsYpK36Coc?si=HHUCCqaIvX2aKC-C" target="_blank">
+            <img src="meow 2.jpg" alt="Posahhh" width="180" class="graphic">
+        </a>
+    </div>
+</div>
+
+<div class="page">
+    <div class="student-info">Name: Meow &nbsp;&nbsp; Section: BSIT</div>
+    <h1>Activity 5</h1>
+
+    <div class="exercise">
+        <h3>1. HTML Font</h3>
+        <div class="sample-box center">
+            <h2 style="font-family:Arial,sans-serif;">Meow's World</h2>
+            <h4>by Meow</h4>
+            <div class="poem">
+                A little page of colors,<br>
+                A picture bright and clear,<br>
+                A place to learn HTML,<br>
+                And practice skills right here.
+            </div>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>2. Ordered List and Unordered List</h3>
+        <h4>Types of Colors</h4>
+        <ul>
+            <li>Primary
+                <ul><li>Red</li><li>Blue</li><li>Yellow</li></ul>
+            </li>
+            <li>Secondary
+                <ul><li>Yellow + Red = Orange</li><li>Red + Blue = Violet</li><li>Blue + Yellow = Green</li></ul>
+            </li>
+        </ul>
+        <h4>Classroom Officers</h4>
+        <ol type="a"><li>President</li><li>Vice-President</li><li>Treasurer</li></ol>
+        <ol type="i" start="4"><li>Secretary</li><li>Auditor</li><li>P.R.O.</li></ol>
+    </div>
+
+    <div class="exercise">
+        <h3>3. Preformatting Text</h3>
+        <p>We will preformat text to list items in columns.</p>
+        <pre>
+        Word          Excel        PowerPoint
+        InDesign      Photoshop    Illustrator
+        Publisher     HTML         Outlook
+        </pre>
+    </div>
+
+    <div class="exercise">
+        <h3>4. Changing background color of page and paragraphs</h3>
+        <div class="yellow-page">
+            <h3 class="red-heading">This is a heading with a red background</h3>
+            <p>The color of the body is yellow.</p>
+            <p class="green-paragraph">This is a paragraph with a green background.</p>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>5. Wrapping text around a graphic (you can use any image of your choice)</h3>
+        <div class="sample-box">
+            <img src="meow.webp" alt="Meow" class="wrap-image">
+            <p>This is an example of wrapping text around a graphic. The text flows beside the picture and continues below it as the space becomes available. This demonstrates how an image can be aligned to the left while text wraps around it.</p>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>6. Hyperlinks</h3>
+        <h4>Top 10 Social Networking Sites</h4>
+        <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank">Link to Facebook</a>
+            <a href="https://www.youtube.com/" target="_blank">Link to YouTube</a>
+            <a href="https://www.blogger.com/" target="_blank">Link to Blogger</a>
+            <a href="https://www.x.com/" target="_blank">Link to X / Twitter</a>
+            <a href="https://www.tumblr.com/" target="_blank">Link to Tumblr</a>
+            <a href="https://www.flickr.com/" target="_blank">Link to Flickr</a>
+            <a href="https://www.linkedin.com/" target="_blank">Link to LinkedIn</a>
+            <a href="https://www.pinterest.com/" target="_blank">Link to Pinterest</a>
+            <a href="https://www.instagram.com/" target="_blank">Link to Instagram</a>
+            <a href="https://www.tiktok.com/" target="_blank">Link to TikTok</a>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>7. Tables</h3>
+        <h2>June 2012</h2>
+        <table class="calendar">
+            <tr><th class="sunday">Su</th><th>Mo</th><th>Tu</th><th>We</th><th>Th</th><th>Fr</th><th>Sa</th></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td></tr>
+            <tr><td class="sunday">3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+            <tr><td class="sunday">10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+            <tr><td class="sunday">17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+            <tr><td class="sunday">24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td></tr>
+        </table>
+    </div>
+</div>
+
+<div class="page">
+    <h1>Activity 6: HTML FORMS</h1>
+
+    <div class="exercise">
+        <h3>6.1</h3>
+        <div class="form-panel">
+            <h2>Customer Information Form</h2>
+            <form>
+                <label>Username: <input type="text" name="username"></label><br><br>
+                <label>Password: <input type="password" name="password"></label><br><br>
+                <label><input type="radio" name="gender" value="Male"> Male</label><br>
+                <label><input type="radio" name="gender" value="Female"> Female</label><br><br>
+                Birthday:
+                <select name="month"><option>Month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option></select>
+                <select name="day"><option>Day</option><script>for(let i=1;i<=31;i++)document.write('<option>'+i+'</option>');</script></select>
+                <select name="year"><option>Year</option><script>for(let i=2026;i>=1980;i--)document.write('<option>'+i+'</option>');</script></select>
+                <br><br>
+                <label><input type="checkbox" name="course" value="Computer Science"> Computer Science</label><br>
+                <label><input type="checkbox" name="course" value="Computer Engineering"> Computer Engineering</label><br>
+                <label><input type="checkbox" name="course" value="Information Technology"> Information Technology</label><br><br>
+                Select City:<br>
+                <select name="city"><option>-</option><option>Manila</option><option>Batangas</option><option>Nasugbu</option><option>Balayan</option></select>
+                <br><br>
+                Tell us about yourself:<br>
+                <textarea rows="6" cols="48" name="about"></textarea><br><br>
+                <input type="submit" value="SUBMIT"> <input type="reset" value="CLEAR">
+            </form>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>6.2</h3>
+        <div class="form-panel">
+            <h3 class="center">Customer Satisfaction Survey Form</h3>
+            <form>
+                <p><b>1) Why did you contact customer service?</b></p>
+                <textarea rows="4" style="width:90%;"></textarea>
+                <p><b>2) What method did you use to contact customer service?</b></p>
+                <label><input type="radio" name="method"> Telephone</label>
+                <label><input type="radio" name="method"> Mail</label>
+                <label><input type="radio" name="method"> Email</label>
+                <label><input type="radio" name="method"> Other</label>
+                <p><b>3) How satisfied are you with the time it took customer service to answer your questions or resolve your issue?</b></p>
+                <label><input type="radio" name="satisfaction"> Very Dissatisfied</label>
+                <label><input type="radio" name="satisfaction"> Dissatisfied</label>
+                <label><input type="radio" name="satisfaction"> Undecided</label>
+                <label><input type="radio" name="satisfaction"> Satisfied</label>
+                <label><input type="radio" name="satisfaction"> Very Satisfied</label>
+                <p>Please tell us how much you agree with the following statements.</p>
+                <p><b>4) The customer service representative was knowledgeable and easy to understand.</b></p>
+                <label><input type="radio" name="statement1"> Strongly Disagree</label>
+                <label><input type="radio" name="statement1"> Disagree</label>
+                <label><input type="radio" name="statement1"> Undecided</label>
+                <label><input type="radio" name="statement1"> Satisfied</label>
+                <label><input type="radio" name="statement1"> Strongly Agree</label>
+                <p><b>5) The customer service representative was able to handle my problem quickly and to my satisfaction.</b></p>
+                <label><input type="radio" name="statement2"> Strongly Disagree</label>
+                <label><input type="radio" name="statement2"> Disagree</label>
+                <label><input type="radio" name="statement2"> Undecided</label>
+                <label><input type="radio" name="statement2"> Satisfied</label>
+                <label><input type="radio" name="statement2"> Strongly Agree</label><br><br>
+                <div class="center"><input type="submit" value="Submit"> <input type="reset" value="Clear"></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <h3>6.3</h3>
+        <div class="form-panel">
+            <h3 class="center">Survey Form</h3>
+            <form>
+                <div class="section-bar">Section 1</div>
+                <p>1.1. Which of the following services do you use?</p>
+                <label><input type="checkbox"> Service 1</label>
+                <label><input type="checkbox"> Service 2</label><br>
+                <label><input type="checkbox"> Service 3</label>
+                <label><input type="checkbox"> Service 4</label><br>
+                <label><input type="checkbox"> Other: <input type="text"></label>
+                <p>1.2. How would you rate our services with our service in terms of...</p>
+                <table class="survey-table">
+                    <tr><th></th><th>Excellent</th><th>Very Good</th><th>Good</th><th>Fair</th><th>Poor</th></tr>
+                    <tr><td>Your overall experience</td><td><input type="radio" name="r1"></td><td><input type="radio" name="r1"></td><td><input type="radio" name="r1"></td><td><input type="radio" name="r1"></td><td><input type="radio" name="r1"></td></tr>
+                    <tr><td>The value of our service</td><td><input type="radio" name="r2"></td><td><input type="radio" name="r2"></td><td><input type="radio" name="r2"></td><td><input type="radio" name="r2"></td><td><input type="radio" name="r2"></td></tr>
+                    <tr><td>Promptness of our service</td><td><input type="radio" name="r3"></td><td><input type="radio" name="r3"></td><td><input type="radio" name="r3"></td><td><input type="radio" name="r3"></td><td><input type="radio" name="r3"></td></tr>
+                    <tr><td>The courtesy of our staff</td><td><input type="radio" name="r4"></td><td><input type="radio" name="r4"></td><td><input type="radio" name="r4"></td><td><input type="radio" name="r4"></td><td><input type="radio" name="r4"></td></tr>
+                </table>
+                <p>Any comments or suggestions</p>
+                <textarea rows="4" style="width:95%;"></textarea>
+                <div class="section-bar">Section 2</div>
+                <p>2.1. How may we reach you? (optional)</p>
+                <label>Your name: <input type="text"></label><br>
+                <label>Phone: <input type="tel"></label><br>
+                <label>Email: <input type="email"></label><br><br>
+                <div class="center"><input type="submit" value="Submit"> <input type="reset" value="Reset"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
